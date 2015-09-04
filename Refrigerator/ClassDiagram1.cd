@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Refrigerator.Refrigerator">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAABCAAAAAAwAEAAAIAAAAAAAAAABAAAAAAAAkAAA=</HashCode>
+      <FileName>DeviceClasses\Refrigerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Refrigerator.Device">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceClasses\Device.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Refrigerator.UIDevice">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAAAAAAAAAAAAAAAAAACAAIAAAAAA=</HashCode>
+      <FileName>UI\UIDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Refrigerator.ServiceMessages">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ServiceClases\ServiceMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Refrigerator.DeviceCreator">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceClases\DeviceCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Refrigerator.Conditioner">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceClasses\Conditioner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Refrigerator.Radio">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceClasses\Radio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Refrigerator.FileOperations">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAIAQAAAAAAAEAAAAAAAAAAAACA=</HashCode>
+      <FileName>ServiceClases\FileOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Refrigerator.IDoorDevice">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDoorDevice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Refrigerator.IElectricDevice">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IElectricDevice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Refrigerator.IValueControl">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAgAAA=</HashCode>
+      <FileName>Interfaces\IValueControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Refrigerator.IModeOfWork">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IModeOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Refrigerator.ModeRefrigerator">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAFAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ModeRefrigerator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Refrigerator.Notificator">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegates\Notificator.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
